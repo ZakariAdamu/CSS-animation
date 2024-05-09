@@ -1,0 +1,24 @@
+#ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3c3eb1;
+
+    animation: bounce 2s linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    /* animation-duration: 2s; */
+    /* animation-timing-function: linear; */
+}
+
+
+
+@keyframes bounce {
+    from {
+        transform: translate(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(640px, 0, 0);
+    }
+}
